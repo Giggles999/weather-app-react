@@ -1,6 +1,7 @@
 import React from "react";
 
 export default function FormattedDate(props) {
+ // eslint-disable-next-line
     let date = new Date(props);
     let days = [
     "Sunday",
