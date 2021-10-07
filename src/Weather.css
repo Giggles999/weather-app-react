@@ -37,5 +37,6 @@ a:visited {
 }
 
 form {
-    background-color: rgb(84, 192, 84);
+    align-items: center;
+    padding: 20px;
 }

@@ -38,11 +38,11 @@ export default function Weather(props) {
     }
   
     let form = (
-      <form onSubmit={handleSubmit}>
+      <form onSubmit={handleSubmit}>    
         <input
           type="text"
           size="sm"
-          placeholder="Enter a city.."
+          placeholder="Enter a city..."
           autoFocus={true}
           onChange={handleCityChange}
         />
