@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <p>
       <a
-        href="https://github.com/Giggles999/weather-react"
+        href="https://github.com/Giggles999/weather-app-react"
         target="_blank"
         rel="noreferrer"
       >
