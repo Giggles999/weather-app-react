@@ -8,30 +8,13 @@ function App() {
 
 <div className="App">
   <header className="App-header">
-    <h1> Weather App Week 4 Homework </h1>
-        <Search />
+    <h1> Weather App Week 5 Homework </h1>
+        
+    <Search />
+    
 
-<div class="row mt-5" >
-  <div class="col-md-6" >
-    <h2>Seattle</h2>
-    <p><ul>
-      <li>Tuesday October 5, 2021 </li>
-      <li>Description: Partly Cloudy </li>
-      <li>Humidity: 60% </li>
-      <li>Wind: 4 km/h </li>
-    </ul></p>
-</div>
      
-<div class="col-md-6">
-  <h2>Seattle</h2>
-    <p><ul>
-      <li><Overview temperature={5} />{" "} </li>
-      <li>Description: Partly Cloudy</li>
-      <li>Humidity: 60% </li>
-      <li>Wind: 4 km/h</li>
-    </ul> </p>
-</div>
-</div>
+
 </header>
 
 <body className="App-body">

@@ -1,5 +1,6 @@
 import React, { useState } from "react";
-import axios from "./Api";
+import axios from "axios";
+import "./Search.css";
 
 export default function Search() {
   const [city, setCity] = useState("");
@@ -42,22 +43,32 @@ export default function Search() {
 
   if (loaded) {
     return (
-      <div>
-        {form}
+    
 
+
+<div className="Weather">
+    {form}
+    <div class="row mt-5">
         <h3> In {city} we have: </h3>
-
+        <div class="col-md-6">
+    
         <ul>
           <li> Temperature: {Math.round(weather.temperature)}°F </li>
-          <li> Humidity: {weather.humidity}%</li>
           <li> Description: {weather.description} </li>
-          <li> Wind: {Math.round(weather.wind)} kmh </li>
-
           <li>
             {" "}
             <img src={weather.icon} alt={weather.description} />{" "}
           </li>
-        </ul>
+        </ul></div>
+
+        <div class="col-md-6">
+        <ul>
+          <li> Temperature: {Math.round(weather.temperature)}°F </li>
+          <li> Humidity: {weather.humidity}%</li>
+          <li> Wind: {Math.round(weather.wind)} kmh </li>
+        </ul></div>
+
+</div>
       </div>
     );
   } else {
