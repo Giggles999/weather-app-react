@@ -34,7 +34,7 @@ export default function FormattedDate(props) {
   let amOrPm ="AM";
   let numberDay = date.getDate();
     
-  
+//need to figure out how to fix the number day to populate   
   
   
   if (hours >= 12) {
