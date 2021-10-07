@@ -1,14 +1,30 @@
-.WeatherForecast {
-    background-color: rgb(243, 232, 232);
-    min-height: vh;
-}
-
-.WeatherForecast {
+.Weather {
+    background-color: rgb(194, 178, 178);
     text-align: center;
-    padding: 0px 50px 0px 0px;
+    font-weight: 100;
+    letter-spacing: 2px;
   }
   
-.WeatherForecast-temperature-min {
+.WeatherInfo {
     opacity: 0.6;
     margin-left: 5px;
+    padding: 0px 50px 50px 50px;
   }
+
+.unit,
+a:active,
+a:hover,
+a:visited {
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.2s;
+    color: blueviolet;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    top: -25px
+  }
+
+.temp {
+    font-size: 50px;
+}
