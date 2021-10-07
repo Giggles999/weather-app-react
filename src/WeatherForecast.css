@@ -1,8 +1,8 @@
 .WeatherForecast {
-    background-color: rgb(243, 232, 232);
+    background-color: rgb(252, 221, 221);
     text-align: center;
     padding: 0px 50px 0px 50px;
-    color: black;
+    color: gray;
     font-weight: 100;
     font-size: 15px;
   }
