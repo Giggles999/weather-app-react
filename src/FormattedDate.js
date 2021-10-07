@@ -32,9 +32,8 @@ export default function FormattedDate(props) {
   let month = months[props.date.getMonth()]
   let hours = props.date.getHours();
   let amOrPm ="AM";
-  let numberDay = date.getDate();
-    
-//need to figure out how to fix the number day to populate   
+  let numberDay = props.date.getDate();
+  let year = props.date.getFullYear ();
   
   
   if (hours >= 12) {
@@ -47,10 +46,9 @@ export default function FormattedDate(props) {
     minutes = `0${minutes}`;
   }
 
-
   return (
-    <div>
-      {day} {month} {numberDay},  {hours}:{minutes}{amOrPm}
+    <div className="currentDate">
+      {day} {month} {numberDay}, {year} | {hours}:{minutes}{amOrPm}
     </div>
   );
 }
