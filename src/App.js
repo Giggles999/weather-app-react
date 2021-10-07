@@ -3,6 +3,7 @@ import Weather from "./Weather";
 import Footer from "./Footer";
 
 
+
 function App() {
   return (
 
@@ -10,11 +11,16 @@ function App() {
   <header className="App-header">
     <h1> Weather App Week 5 Homework </h1>
         
-    <Weather />
+    <Weather defaultCity="Seattle" />
     
 </header>
 
+<body className="App-body">
+  <h2>Forecast</h2>
 
+
+
+</body>
       <Footer />
     </div>
   );
