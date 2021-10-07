@@ -17,7 +17,7 @@
 }
 
 .App h1{
-  font-size: calc(20px + 2vmin);
+  font-size: calc(20px + 4vmin);
   font-weight: 500;
   line-height: 29px;
   padding: 25px;
