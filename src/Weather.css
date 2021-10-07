@@ -15,12 +15,10 @@ a:hover,
 a:visited {
     display: inline-block;
     text-decoration: none;
-    transition: 0.2s;
     color: blueviolet;
-    font-size: 15px;
-    font-weight: bold;
     position: relative;
-    top: -25px
+    top: -25px; 
+    font-size: 25px;
   }
 
 .Weather h1{
@@ -30,9 +28,14 @@ a:visited {
   }
 
 .temp {
-    font-size: 50px;
+    font-size: calc(25px + 4vmin);
 }
+
 
 .currentDate {
     font-weight: bold;
+}
+
+form {
+    background-color: rgb(84, 192, 84);
 }
